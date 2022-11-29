@@ -1,9 +1,8 @@
----
 name: pp2022
 services:
-  - environment_slug: python
-    github:
-      branch: main
-      deploy_on_push: true
-      repo: tomhickey50/pp2022
-    name: pp2022
+- environment_slug: python
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: tomhickey50/pp2022
+  name: pp2022
