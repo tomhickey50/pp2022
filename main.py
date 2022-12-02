@@ -16,7 +16,7 @@ def main():
 @app.route('/number')
 def number():
     global my_number
-    return f'{my_number}' if my_number is not None else '0'
+    return f'{my_number}' if my_number is not None else '5'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=8080,debug=False)
