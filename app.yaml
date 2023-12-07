@@ -1,0 +1,9 @@
+name: sample-html
+static_sites:
+- name: site
+  github:
+    repo: digitalocean/sample-html
+    branch: master
+  cors:
+   allow_origins:
+   - exact: https://example.com
