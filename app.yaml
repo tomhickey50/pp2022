@@ -1,6 +1,6 @@
 name: sample-html
 static_sites:
-  name: site
+- name: site
   github:
     repo: tomhickey50/pp2022
     branch: master
