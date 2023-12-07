@@ -1,6 +1,5 @@
 name: pp2022
 services:
-- environment_slug: python
   github:
     branch: main
     deploy_on_push: true
