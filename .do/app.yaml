@@ -1,9 +1,8 @@
-name: sample-html
-static_sites:
-  name: site
+name: pp2022
+services:
+- environment_slug: python
   github:
-    repo: digitalocean/sample-html
-    branch: master
-  cors:
-   allow_origins:
-   - exact: https://example.com
+    branch: main
+    deploy_on_push: true
+    repo: tomhickey50/pp2022
+  name: pp2022
